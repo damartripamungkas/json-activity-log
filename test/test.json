@@ -1,0 +1,35 @@
+{
+  "run_web_server": {
+    "[1] setup_code_expressjs": {
+      "result": {
+        "host": "localhost",
+        "port": "3000"
+      },
+      "log": {
+        "[2024-06-05 23:40:42:513] [INFO]": "write simple code webserver"
+      }
+    },
+    "[2] end": {
+      "result": {
+        "status": "success"
+      },
+      "log": {}
+    }
+  },
+  "run_telegram_bot": {
+    "[1] init_telegraf_constructor": {
+      "result": {
+        "status": "success"
+      },
+      "log": {
+        "[2024-06-05 23:40:42:537] [INFO]": "write simple code telegraf initialized"
+      }
+    },
+    "[2] end": {
+      "result": {
+        "status": "success"
+      },
+      "log": {}
+    }
+  }
+}
